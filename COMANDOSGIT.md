@@ -9,6 +9,8 @@
 
 `git push -u origin main` - Sincroniza os commits com  o github
 
-`git checkout -b *nome da nova branch*` - Cria uma nova branch
+`git checkout -b *nome da nova branch*` - Cria uma nova branch (Serve para adicionar features em parelo e depois pode ser adicionada a branch principal)
+
+`git checkout *nome da branch*` - Altera em qual branch estou trabalhando
 
 `git branch -M *nome*` - Renomeia a branch atual
