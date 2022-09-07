@@ -14,3 +14,5 @@
 `git checkout *nome da branch*` - Altera em qual branch estou trabalhando
 
 `git branch -M *nome*` - Renomeia a branch atual
+
+`git merge *nome da branch` - Dentro da branch principal, este comando recebe as branchs paralelas e junta as alterações feitas em ambas
