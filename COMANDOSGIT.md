@@ -16,3 +16,7 @@
 `git branch -M *nome*` - Renomeia a branch atual
 
 `git merge *nome da branch` - Dentro da branch principal, este comando recebe as branchs paralelas e junta as alterações feitas em ambas
+
+`git clone *link do repositório no github` - Clona um repositório github na máquina local
+
+`git pull` - Puxa as alterações que não foram feitas na máquina local (refresh)
