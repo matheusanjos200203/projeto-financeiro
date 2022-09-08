@@ -1,10 +1,11 @@
-import './reset.css';
 import Login from '../Login';
+import './reset.css';
+import './style.css'
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Login />
-    </div>
+    </main>
   );
 }
 
