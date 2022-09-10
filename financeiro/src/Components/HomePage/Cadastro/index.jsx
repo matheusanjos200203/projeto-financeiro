@@ -1,5 +1,6 @@
-import './cadastro.css';
-import LinkButton from './Components/LinkButtons';
+import './Cadastro.css';
+import LinkButton from '../Buttons/LinkButtons';
+import Button from '../Buttons/Button';
 
 const Cadastro = () => {
     return(
@@ -45,7 +46,7 @@ const Cadastro = () => {
                         className='inputLogin'
                         autoComplete='current-password' />
                 </fieldset>
-                <button type="submit" className='formButton cadastroButton'>Entrar</button>
+                <Button type='submit' className='formButton cadastroButton'>Cadastrar</Button>
                 <LinkButton className = "togglePage">Login</LinkButton>
             </form>
 
