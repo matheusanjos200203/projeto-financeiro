@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.paginaInicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.togglePage{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.togglePage:hover{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:940px) {
+    .paginaInicial{
+        padding: 5px;
+        background-color: #72ECAA;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .paginaInicial{
+        width: auto;
+    }
+}
