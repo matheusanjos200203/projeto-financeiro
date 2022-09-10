@@ -2,6 +2,7 @@ import React from "react";
 import Cadastro from "./Cadastro";
 import './Login.css';
 import HomeMobile from '../../assets/ImgHomeMobile.svg';
+import LinkButton from "./Components/LinkButtons";
 const Login = () => {
     return(
         <div className="paginaInicial">
@@ -21,6 +22,8 @@ const Login = () => {
                         <input type="password" name="senhaLogin" id="senhaLogin" placeholder="Senha" required className="inputLogin" autoComplete="current-password"/>
                     </fieldset>
                     <button type="submit" className="formButton loginButton">Entrar</button>
+
+                    <LinkButton className = "togglePage" >Cadastre-se</LinkButton>
                 </form>
             </section>
 
