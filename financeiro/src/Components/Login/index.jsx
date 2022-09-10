@@ -1,30 +1,30 @@
 import React from "react";
-import './style.css';
-
+import Cadastro from "./Cadastro";
+import './Login.css';
+import HomeMobile from '../../assets/ImgHomeMobile.svg';
 const Login = () => {
     return(
         <div className="paginaInicial">
             <section className="Login">
+                {/* <img src={HomeMobile} alt="Análise Métrica Finanças" className="ImgMobile" /> */}
                 <h1>
                     BEM-VINDO AO FINC3IRO
                 </h1>
 
-                <p>Realize o login ou faça o cadstro ao lado -{`>`} </p>
+                <p>Acesse sua conta agora mesmo!</p>
 
-                <form action="submit" id="formLogin">
+                <form action="submit" className="formHome" id="formLogin">
                     <fieldset className="campoLogin">
                         <label htmlFor="emailLogin" className="labelLogin">Email</label>
-                        <input type="text" htmlFor="emailLogin" placeholder="Email" required className="inputLogin" autoComplete="userName"/>
+                        <input type="email" name="emailLogin" placeholder="Email" required className="inputLogin" autoComplete="userName"/>
                         <label htmlFor="senha" className="labelLogin">Senha</label>
                         <input type="password" name="senhaLogin" id="senhaLogin" placeholder="Senha" required className="inputLogin" autoComplete="current-password"/>
                     </fieldset>
-                    <button type="submit">Entrar</button>
+                    <button type="submit" className="formButton loginButton">Entrar</button>
                 </form>
+            </section>
 
-            </section>
-            <section className="Cadastro">
-                Cadastro
-            </section>
+            <Cadastro></Cadastro>
         </div>
     );
 }
