@@ -1,5 +1,5 @@
 import React from "react";
-import './Login.css';
+import './Home.css';
 
 const Home = (props) => {
     return(
