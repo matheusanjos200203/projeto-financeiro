@@ -1,0 +1,15 @@
+.Header{
+    display: flex;
+}
+
+.Header nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}

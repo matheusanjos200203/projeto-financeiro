@@ -1,0 +1,26 @@
+.Balance{
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+.Balance-Cards{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+.Card.Entradas{
+    background-color: green;
+}
+.Card.Saidas{
+    background-color: red;
+}
+.Card.Saldo{
+    background-color: blue;
+}
+
+.Transferencias{
+    background-color: black;
+    color: white;
+}
