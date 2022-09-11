@@ -158,3 +158,9 @@
         font-size: 2em;
     }
 }
+
+@media screen and (max-height:1350px){
+    .Login{
+        overflow: scroll;
+    }
+}

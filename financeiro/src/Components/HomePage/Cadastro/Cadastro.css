@@ -98,3 +98,9 @@
         font-size: 3.5em;
     }
 }
+
+@media screen and (max-height:1350px){
+    .Cadastro{
+        overflow-y: scroll;
+    }
+}
