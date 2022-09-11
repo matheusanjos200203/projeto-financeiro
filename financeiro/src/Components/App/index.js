@@ -14,9 +14,9 @@ function App() {
         <Login></Login>
         <Cadastro></Cadastro>
       </Home> */}
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
+        <Header></Header>
+        <Main></Main>
+        <Footer></Footer>
     </main>
   );
 }

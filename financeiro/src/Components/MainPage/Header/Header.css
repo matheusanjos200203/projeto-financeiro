@@ -1,15 +1,25 @@
 .Header{
     display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: #2d4a22;
+    color: white;
+}
+
+.Header h1{
+    position: absolute;
+    left: 5%;
 }
 
 .Header nav{
     position: absolute;
-    top: 0;
     right: 0;
 }
 
 .Header nav ul{
-    display: flex;
-    justify-content: space-evenly;
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
+    text-align: center;
+    align-items: center;
 }
