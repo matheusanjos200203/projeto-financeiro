@@ -5,15 +5,15 @@ const Main = () => {
             <section className="Balance">
                 <div className="Balance-Cards">
                     <div className="Card Entradas">
-                        <h2>Entradas</h2>
+                        <h3>Entradas</h3>
                         <p>R$100,00</p>
                     </div>
                     <div className="Card Saidas">
-                        <h2>Saídas</h2>
+                        <h3>Saídas</h3>
                         <p>R$100,00</p>
                     </div>
                     <div className="Card Saldo">
-                        <h2>Saldo</h2>
+                        <h3>Saldo</h3>
                         <p>R$100,00</p>
                     </div>
                 </div>

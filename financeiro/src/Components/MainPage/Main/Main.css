@@ -1,23 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+:root {
+    --dark-blue: #363f5f;
+    --green: #49aa26;
+    --light-green: #3dd705;
+    --red: #e92929;
+
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 .Balance{
     width: 100vw;
+    height: 9rem;
     background-color: black;
-    color: white;
 }
 .Balance-Cards{
-    width: 90%;
+    width: 80%;
+    height: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5%;
+    padding: 5px;
 }
-.Card.Entradas{
-    background-color: green;
+
+.Card{
+    border-radius: 5px;
 }
-.Card.Saidas{
-    background-color: red;
+.Card h3{
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 3% 0 0 3%;
+}
+.Card p{
+    font-size: 1.8rem;
+    margin: 12% 0 0 3%;
+    font-weight: lighter;
+}
+
+.Card.Entradas, .Card.Card.Saidas{
+    background-color: white;
+    color: var(--dark-blue);
 }
 .Card.Saldo{
-    background-color: blue;
+    background-color: var(--green);
+    color: white;
 }
 
 .Transferencias{

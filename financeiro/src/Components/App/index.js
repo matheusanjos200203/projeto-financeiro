@@ -10,13 +10,13 @@ import './style.css';
 function App() {
   return (
     <main className="App">
-      <Home>
+      {/* <Home>
         <Login></Login>
         <Cadastro></Cadastro>
-      </Home>
-        {/* <Header></Header>
+      </Home> */}
+        <Header></Header>
         <Main></Main>
-        <Footer></Footer> */}
+        <Footer></Footer>
     </main>
   );
 }

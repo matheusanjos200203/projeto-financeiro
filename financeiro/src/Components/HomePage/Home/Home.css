@@ -6,7 +6,7 @@
 }
 body{
     height: 100vh;
-    background-color: #72ECAA;
+    /* background-color: #72ECAA; */
 }
 .paginaInicial{
     display: flex;
