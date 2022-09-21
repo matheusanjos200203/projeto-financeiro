@@ -17,6 +17,10 @@
     background-color: white;
 }
 
+section.Cadastro::-webkit-scrollbar {
+    display: none;
+}
+
 .Cadastro h2{
     margin-top: 18%;
 
