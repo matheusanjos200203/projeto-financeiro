@@ -20,6 +20,10 @@
     background-color: #72ECAA;
 }
 
+section.Login::-webkit-scrollbar {
+    display: none;
+}
+
 .Login h1{
     margin-top: 25%;
 
