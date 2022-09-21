@@ -12,9 +12,10 @@
     width: 100vw;
     height: 100vh;
 }
-.togglePage{
+a.togglePage{
     text-decoration: none;
     color: whitesmoke;
+    margin: 0 auto;
 }
 .togglePage:hover{
     color: #FFF;
