@@ -25,3 +25,9 @@ nav ul li{
     margin: 0 0 0 20px;
     font-size: 13px;
 }
+
+@media screen and (max-width:800px) {
+    nav ul{
+        flex-direction: column;
+    }
+}
