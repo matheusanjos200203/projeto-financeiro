@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+
+:root {
+    --dark-blue: #363f5f;
+    --green: #49aa26;
+    --light-green: #3dd705;
+    --red: #e92929;
+  }
+
+.Balance{
+    width: 100%;
+    padding: 10px;
+    
+    transition: all 1s;
+}
+
+.Balance .Cards{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: all 1s;
+}
+
+.Balance .Cards .Card{
+    width: 90%;
+    height: 150px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;
+    color: var(--dark-blue);
+
+    box-shadow: 5px 5px 1px #b5b5b5;
+}
+
+.Balance .Cards .Card.Total{
+    background-color: var(--green);
+    color: white;
+}
+
+.Balance .Cards .Card h2{
+    font-size: 1.1rem;
+}
+.Balance .Cards .Card p{
+    font-size: 1.8rem;
+}
+
+@media (min-width: 800px) {
+    html {
+      font-size: 87.5%;
+    }
+  
+    .Balance .Cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Balance .Cards .Card{
+        margin: 0 auto;
+    }
+  }

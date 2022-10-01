@@ -5,8 +5,10 @@
     font-family: 'Poppins', sans-serif;    
 }
 
-.App{
-    /* width: 100vw; */
+.container{
+    width: 90%;
     /* height: 100vh; */
-    background-color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+    background-color: whitesmoke
 }

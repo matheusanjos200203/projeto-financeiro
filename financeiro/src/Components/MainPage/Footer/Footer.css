@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+
+:root {
+    --dark-blue: #363f5f;
+    --green: #49aa26;
+    --light-green: #3dd705;
+    --red: #e92929;
+}
+
+footer.Footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background-color: whitesmoke;
+}
+footer.Footer ul li,
+footer.Footer ul li a{
+    text-decoration: none;
+    color: var(--dark-blue);
+    opacity: 0.6;
+}
+footer.Footer ul li a:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width:800px) {
+    footer.Footer{
+        background-color: #3dd705;
+        display: none;
+    }
+}
