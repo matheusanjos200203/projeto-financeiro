@@ -14,15 +14,13 @@ const Login = () => {
         setCadastroDisplay(prev => !prev);
         setLoginDisplay(prev => !prev);
     }
-    
-    let className;
-    windowWidth().innerWidth > 940 ? className = "Login" : loginDisplay ? className = "Login" : className = "Login OFF";
-    console.log("login"+loginDisplay);
-    console.log("Cadastro"+cadastroDisplay);
+
+    let sectionClassName, togglePageClassName = "togglePage";
+    windowWidth().innerWidth > 940 ? sectionClassName = "Login" : loginDisplay ? sectionClassName = "Login" : sectionClassName = "Login OFF";
 
     return(
         // <UserProvider>
-            <section className={className}>
+            <section className={sectionClassName}>
                 <h1>
                     BEM-VINDO AO FINC3IRO
                 </h1>
@@ -38,7 +36,7 @@ const Login = () => {
                     </fieldset>
                     
                     <Button type='submit' className='formButton loginButton'>Entrar</Button>
-                    <LinkButton className = "togglePage" onClick = {() => {Controler()}}>Cadastre-se</LinkButton>
+                    <LinkButton id="toggleLoginButton" className = {togglePageClassName} onClick = {() => {Controler()}}>Cadastre-se</LinkButton>
                 </form>
             </section>
         // {/* </UserProvider> */}

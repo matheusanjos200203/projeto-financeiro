@@ -121,15 +121,15 @@ section.Login::-webkit-scrollbar {
     text-decoration: underline;
 }
 
-/* @media screen and (min-width:940px) {
-    #formLogin .togglePage{
+@media screen and (min-width:940px) {
+    .togglePage{
         display: none;
     }
-} */
+}
+
 
 @media screen and (max-width:940px) {
     .Login{
-        /* display: none; */
         width: 100%;
         height: 80vh;
         border: 3px solid white;
@@ -137,12 +137,15 @@ section.Login::-webkit-scrollbar {
         transition: all 0.6s;
 
     }
+    .labelLogin{
+        margin-top: 5px;
+    }
     .Login h1{
-        margin: auto;
-        font-size: 100%;
+        margin-top: 50px;
+        font-size: 1.3em;
     }
     .Login p{
-        margin: auto;
+        margin: 8px 0 0 0;
         font-size: 100%;
     }
     #formLogin, .campoLogin, .campoLogin input {
@@ -150,7 +153,10 @@ section.Login::-webkit-scrollbar {
     }
 
     .loginButton{
-        margin: 1% auto;
+        margin: 5px auto;
+    }
+    #toggleLoginButton{
+        margin-top: 2px;
     }
 }
 

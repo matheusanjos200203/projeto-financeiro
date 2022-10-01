@@ -17,7 +17,7 @@ const Cadastro = () => {
         setLoginDisplay(prev => !prev);
     }
 
-    let className;
+    let className, togglePageClassName = "togglePage";
     windowWidth().innerWidth > 940 ? className = "Cadastro" : cadastroDisplay ? className = "Cadastro" : className = "Cadastro OFF";
 
     return(
@@ -64,7 +64,7 @@ const Cadastro = () => {
                         autoComplete='current-password' />
                 </fieldset>
                 <Button type='submit' className='formButton cadastroButton'>Cadastrar</Button>
-                <LinkButton className = "togglePage" onClick = {() => {Controler()}}>Login</LinkButton>
+                <LinkButton className = {togglePageClassName} onClick = {() => {Controler()}}>Login</LinkButton>
             </form>
 
         </section>
