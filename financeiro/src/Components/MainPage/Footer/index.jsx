@@ -7,10 +7,10 @@ const Footer = () => {
             <ul>
                 <li>Matheus Batista dos Anjos</li>
                 <li>
-                    <a href="https://www.linkedin.com/in/matheus-batista-dos-anjos-36ba38211/">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/matheus-batista-dos-anjos-36ba38211/" target="blank">LinkedIn</a>
                 </li>
                 <li>
-                    <a href="https://github.com/matheusanjos200203">Github</a>
+                    <a href="https://github.com/matheusanjos200203" target="blank">Github</a>
                 </li>
             </ul>
         </footer>

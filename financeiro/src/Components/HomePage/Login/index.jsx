@@ -1,11 +1,28 @@
 import './Login.css';
 import LinkButton from "../Buttons/LinkButtons";
 import Button from '../Buttons/Button';
-
+import { useState, useContext } from 'react';
+import { LoginDisplayContext } from '../../../Contexts/LoginContext';
+import { CadastroDisplayContext } from '../../../Contexts/CadastroContext';
+import { WindowWidthContext } from '../../../Contexts/WindowWidthContext';
 const Login = () => {
+    const {cadastroDisplay, setCadastroDisplay} = useContext(CadastroDisplayContext);
+    const {loginDisplay, setLoginDisplay} = useContext(LoginDisplayContext);
+    const {windowWidth} = useContext(WindowWidthContext);
+
+    const Controler = () => {
+        setCadastroDisplay(prev => !prev);
+        setLoginDisplay(prev => !prev);
+    }
+    
+    let className;
+    windowWidth().innerWidth > 940 ? className = "Login" : loginDisplay ? className = "Login" : className = "Login OFF";
+    console.log("login"+loginDisplay);
+    console.log("Cadastro"+cadastroDisplay);
+
     return(
         // <UserProvider>
-            <section className="Login">
+            <section className={className}>
                 <h1>
                     BEM-VINDO AO FINC3IRO
                 </h1>
@@ -21,7 +38,7 @@ const Login = () => {
                     </fieldset>
                     
                     <Button type='submit' className='formButton loginButton'>Entrar</Button>
-                    <LinkButton className = "togglePage" >Cadastre-se</LinkButton>
+                    <LinkButton className = "togglePage" onClick = {() => {Controler()}}>Cadastre-se</LinkButton>
                 </form>
             </section>
         // {/* </UserProvider> */}

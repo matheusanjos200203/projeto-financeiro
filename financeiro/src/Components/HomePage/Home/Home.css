@@ -22,6 +22,16 @@ a.togglePage{
     text-decoration: underline;
 }
 
+@media screen and (min-width:940px) {
+    .Cadastro{
+        box-shadow: 5px 5px 1px #b5b5b5;
+        /* #b5b5b5 */
+    }
+    .Login{
+        box-shadow: 6px 5px 1px #b5b5b5;
+    }
+}
+
 @media screen and (max-width:940px) {
     .paginaInicial{
         padding: 5px;

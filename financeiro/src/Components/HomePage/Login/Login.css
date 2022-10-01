@@ -18,6 +18,11 @@
     text-align: center;
  
     background-color: #72ECAA;
+    /* background-color: #266041; */
+}
+
+.Login.OFF{
+    display: none;
 }
 
 section.Login::-webkit-scrollbar {
@@ -76,6 +81,11 @@ section.Login::-webkit-scrollbar {
     background-color: transparent;
     border: 3px solid #FFF;
 }
+
+.inputLogin::placeholder{
+    color: #FFF;
+}
+
 .formButton{
     width: 60%;
     height: 50px;
@@ -110,6 +120,12 @@ section.Login::-webkit-scrollbar {
     color: #FFF;
     text-decoration: underline;
 }
+
+/* @media screen and (min-width:940px) {
+    #formLogin .togglePage{
+        display: none;
+    }
+} */
 
 @media screen and (max-width:940px) {
     .Login{

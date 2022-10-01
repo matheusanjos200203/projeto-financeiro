@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 .Cadastro{
     width: 60vw;
     height: 90vh;
@@ -15,6 +16,11 @@
 
     background-color: white;
 }
+
+.Cadastro.OFF{
+    display: none;
+}
+
 
 section.Cadastro::-webkit-scrollbar {
     display: none;
@@ -51,6 +57,10 @@ section.Cadastro::-webkit-scrollbar {
     border: 3px solid #72ECAA;
 }
 
+.inputLogin.inputCadastro::placeholder{
+    color: #72ECAA;
+}
+
 .cadastroButton{
     margin: 2% auto 2% auto;
 
@@ -72,9 +82,15 @@ section.Cadastro::-webkit-scrollbar {
     color: #72ECAA;
 }
 
+/* @media screen and (min-width:940px) {
+    #formCadastro .togglePage{
+        display: none;
+    }
+} */
+
 @media screen and (max-width:940px) {
     .Cadastro{
-        display: none;
+        /* display: none; */
         width: 100%;
         height: 80vh;
         border: 3px solid white;
