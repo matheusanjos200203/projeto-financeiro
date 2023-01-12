@@ -7,7 +7,7 @@
 
 :root {
     --dark-blue: #363f5f;
-    --green: #49aa26;
+    --green: #00e24f;
     --light-green: #3dd705;
     --red: #e92929;
   }
@@ -49,7 +49,8 @@
 }
 
 .Balance .Cards .Card.Total{
-    background-color: var(--green);
+    /* background-color: var(--green); */
+    background-color: #00e24f;
     color: white;
 }
 

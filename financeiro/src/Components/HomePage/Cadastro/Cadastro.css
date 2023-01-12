@@ -32,7 +32,7 @@ section.Cadastro::-webkit-scrollbar {
     font-size: 20px;
     font-weight: bolder;
 
-    color: #72ECAA;
+    color: #00e28b;
 }
 
 #formCadastro{
@@ -51,35 +51,35 @@ section.Cadastro::-webkit-scrollbar {
     align-content: center;
 }
 .campoCadastro label{
-    color: #72ECAA;
+    color: #00e28b;
 }
 .campoCadastro input{
-    border: 3px solid #72ECAA;
+    border: 3px solid #00e28b;
 }
 
 .inputLogin.inputCadastro::placeholder{
-    color: #72ECAA;
+    color: #00e28b;
 }
 
 .cadastroButton{
     margin: 2% auto 2% auto;
 
-    color: #72ECAA;
+    color: #00e28b;
 
-    border: 3px solid #72ECAA;
+    border: 3px solid #00e28b;
     
     background-color: transparent;
 
     transition: all 0.6s;
 }
 .cadastroButton:hover{
-    background-color: #72ECAA;
+    background-color: #00e28b;
     color: #FFF;
     border: none;
 }
 #formCadastro .togglePage{
     font-weight: 600;
-    color: #72ECAA;
+    color: #00e28b;
 }
 .togglePage.OFF{
     display: none;
