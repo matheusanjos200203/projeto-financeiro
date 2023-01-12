@@ -14,7 +14,7 @@ import './style.css';
 function App() {
   return (
     <main className="App">
-      <WindowWidthProvider>
+      {/* <WindowWidthProvider>
       <LoginDisplayProvider> 
         <CadastroDisplayProvider>
         <Home>
@@ -23,14 +23,14 @@ function App() {
         </Home>
         </CadastroDisplayProvider>
       </LoginDisplayProvider>
-      </WindowWidthProvider>
+      </WindowWidthProvider> */}
 
-      {/* <Header></Header>
+      <Header></Header>
       <Content>
         <Balance></Balance>
         <Transactions></Transactions>
         <Footer></Footer>
-      </Content> */}
+      </Content>
     
     </main>
   );
